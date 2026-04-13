@@ -1,4 +1,4 @@
-# Guild Wars 2 React API Project
+# Guild Wars 2 React API Project - account and character checker
 
 A small React application that integrates with the official Guild Wars 2 API to display game data such as characters, items, and account information.
 
