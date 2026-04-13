@@ -1,16 +1,42 @@
-# React + Vite
+# Guild Wars 2 React API Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React application that integrates with the official Guild Wars 2 API to display game data such as characters, items, and account information.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Fetches data from the official Guild Wars 2 API
+* Displays structured game information (items, characters, etc.)
+* Clean and responsive UI built with React
+* Modular and maintainable component structure
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript / TypeScript (update as needed)
+* Fetch API / Axios (update if applicable)
+* CSS / Tailwind / other styling (update if applicable)
 
-## Expanding the ESLint configuration
+## 📡 API Reference
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project uses the official Guild Wars 2 API provided by ArenaNet:
+
+https://api.guildwars2.com/
+
+## 🧠 Learning Goals
+
+This project was built to:
+
+* Practice working with third-party APIs
+* Improve React component architecture
+* Handle asynchronous data fetching and state management
+* Build portfolio-ready projects
+
+## ⚠️ Disclaimer
+
+This application uses the Guild Wars 2 API but is not affiliated with or endorsed by ArenaNet.
+
+Guild Wars 2 and all related assets are © ArenaNet.
+
+## 📄 License
+
+This project is licensed under the MIT License.
