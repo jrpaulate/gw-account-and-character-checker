@@ -8,7 +8,7 @@ A React application that connects to the official [Guild Wars 2 API](https://api
 
 ---
 
-## 📸 Overview
+## Overview
 
 - Enter your GW2 API key to authenticate
 - Browse your **account stats** (name, world, age, achievements)
@@ -16,8 +16,6 @@ A React application that connects to the official [Guild Wars 2 API](https://api
 - API key is persisted in `localStorage` so you stay connected between sessions
 
 ---
-
-## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -57,7 +55,7 @@ npm run preview
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -69,24 +67,7 @@ npm run preview
 
 ---
 
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   ├── ApiKeyInput.jsx       # API key entry and verification
-│   ├── AccountStats.jsx      # Account-level information
-│   ├── CharacterStats.jsx    # Character list and details
-│   └── CharacterEquipment.jsx# Per-character equipment display
-├── services/
-│   └── gw2Api.js             # GW2 API client (singleton)
-├── App.jsx
-└── main.jsx
-```
-
----
-
-## 📡 API Endpoints Used
+## API Endpoints Used
 
 | Endpoint | Description |
 |----------|-------------|
@@ -104,7 +85,7 @@ Full API documentation: [wiki.guildwars2.com/wiki/API:Main](https://wiki.guildwa
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is an independent fan-made tool and is **not affiliated with or endorsed by ArenaNet**.
 
@@ -112,6 +93,6 @@ Guild Wars 2 and all related assets are © ArenaNet, LLC. All rights reserved.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
